@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/latitudeLabel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Latitude: "
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4dip" />
+
+    <TextView android:id="@+id/latitudeValue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/latitudeLabel"
+        android:layout_toRightOf="@id/latitudeLabel" />
+
+    <TextView android:id="@+id/longitudeLabel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Longitude: "
+        android:layout_below="@id/latitudeLabel"
+        android:layout_marginRight="4dip" />
+
+    <TextView android:id="@+id/longitudeValue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignTop="@id/longitudeLabel"
+        android:layout_toRightOf="@id/longitudeLabel" />
+
+    <TextView android:id="@+id/totalDistanceTravel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Total Distance Travel: "
+        android:layout_below="@id/longitudeValue"
+        android:layout_marginRight="4dip" />
+
+    <TextView android:id="@+id/totalDistanceTravelValue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="0 Meters"
+        android:layout_alignTop="@id/totalDistanceTravel"
+        android:layout_toRightOf="@id/totalDistanceTravel" />
+
+    <Button android:id="@+id/resetDistanceTravel"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Reset Distance Travel:"
+        android:onClick="resetDistanceClick"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

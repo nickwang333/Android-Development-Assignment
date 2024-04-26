@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">NUMAD24Sp_ZhuofengWang</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="item_name">Item name</string>
+    <string name="item_description">Description</string>
+    <string name="description">This image acts as an icon.</string>
+
+    <string name="about_me">About me</string>
+    <string name="clicky_clicky">Clicky Clicky</string>
+    <string name="b">B</string>
+    <string name="a">A</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="pressed">Pressed: -</string>
+    <string name="link_collector">Link Collector</string>
+    <string name="title_activity_link">activity_link</string>
+    <string name="hello_i_m_zhuofeng_wang_and_quot_quot_my_email_is_wang_zhuofe_northeastern_edu">Hello I\'m Zhuofeng Wang, and \" + \"my email is wang.zhuofe@northeastern.edu!</string>
+    <string name="name">Name</string>
+    <string name="current_number_being_checked">Latest prime found: 3\nCurrent number being checked: 3</string>
+    <string name="find_primes">Find Primes</string>
+    <string name="terminate_search">Terminate Search</string>
+    <string name="prime">Prime</string>
+</resources>
